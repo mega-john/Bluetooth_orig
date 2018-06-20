@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/bluetooth_map_email_settings_liniar_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/bluetooth_map_email_settings_description_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bluetooth_map_email_settings_intro"/>
+    <ExpandableListView android:orientation="vertical" android:id="@+id/bluetooth_map_email_settings_list_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="3"/>
+</LinearLayout>
